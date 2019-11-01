@@ -35,7 +35,6 @@ if (kids === 'no' || kids === 'n') {
 else {
   alert('not yet!!');
 }
-alert('Thank you for participating!!');
 
 // question 6
 var favoritenum = prompt('guess my favorite number?');
@@ -48,3 +47,5 @@ else if (favoritenum > 7) {
 else {
   alert('too low');
 }
+
+alert('Thank you for participating!!'); 
