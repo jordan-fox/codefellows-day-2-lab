@@ -1,7 +1,7 @@
 prompt('What is your name?');
 //question 1
 var age = prompt("Am i over 40?").toLowerCase();
-console.log('age', age);
+//console.log('age', age);
 if (age === 'no' || age === 'n') {
   alert('you are right');
 }
@@ -10,7 +10,7 @@ else {
 }
 //question 2
 var place = prompt('Do i leave in US?').toLocaleLowerCase();
-console.log('yes', place);
+//console.log('yes', place);
 if (place === 'yes' || place === 'y') {
   alert('yes you got it!!');
 }
@@ -19,7 +19,7 @@ else {
 }
 // question 3
 var status = prompt('Am i married?').toLowerCase();
-console.log('still looking ', status);
+//console.log('still looking ', status);
 if (status === 'no' || status === 'n') {
   alert('still looking the right one');
 }
@@ -36,3 +36,15 @@ else {
   alert('not yet!!');
 }
 alert('Thank you for participating!!');
+
+// question 6
+var favoritenum = prompt('guess my favorite number?');
+if (favoritenum === 7) {
+  alert('yea how do you know it!!');
+}
+else if (favoritenum > 7) {
+  alert('too high');
+}
+else {
+  alert('too low');
+}
