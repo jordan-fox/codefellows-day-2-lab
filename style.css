@@ -12,14 +12,20 @@ h3{
 }
 p{
   font-size: 20px;
-  padding: 100px;
+  padding: 42px;
   background-color: burlywood;
 }
-
 ol{
-  text-align: center;
+  /*text-align: center;*/
   background-color: burlywood;
 }
 footer{
+  text-align: center;
+  background-color: burlywood;
+}
+p1{
+  text-align: center;
+}
+div{
   text-align: center;
 }

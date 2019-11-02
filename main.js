@@ -38,14 +38,17 @@ else {
 
 // question 6
 var favoritenum = prompt('guess my favorite number?');
-if (favoritenum === 7) {
-  alert('yea how do you know it!!');
-}
-else if (favoritenum > 7) {
-  alert('too high');
-}
-else {
-  alert('too low');
-}
 
-alert('Thank you for participating!!'); 
+for (let i = 1; i <= 4; i++); {
+
+  if (favoritenum === 7) {
+    alert('yea how do you know it!!');
+  }
+  if (favoritenum > 7) {
+    alert('too high');
+  }
+  if (favoritenum < 7) {
+    alert('too low');
+  }
+
+//alert('Thank you for participating!!');
